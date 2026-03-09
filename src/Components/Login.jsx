@@ -45,8 +45,8 @@ function Login() {
   const loginWithGoogle = () => {
      account.createOAuth2Session(
       "google",
-      `${window.location.origin}/dashboard`,
-      `${window.location.origin}/login`,
+      "https://appcrudproject.netlify.app/dashboard",
+      "https://appcrudproject.netlify.app/login",
     );
   };
 
@@ -54,8 +54,8 @@ function Login() {
   const loginWithGithub = () => {
     account.createOAuth2Session(
       "github",
-      `${window.location.origin}/dashboard`,
-      `${window.location.origin}/login`,
+      "https://appcrudproject.netlify.app/dashboard",
+      "https://appcrudproject.netlify.app/login",
       );
   };
 
