@@ -44,8 +44,8 @@ function Login() {
   const loginWithGoogle = () => {
     account.createOAuth2Session(
       OAuthProvider.Google,
-     'https://gleeful-sawine-a544bd.netlify.app/dashboard',
-      `https://gleeful-sawine-a544bd.netlify.app/login`,
+      "https://appcrudproject.netlify.app/dashboard",
+      `https://appcrudproject.netlify.app/login`,
     );
   };
 
@@ -53,8 +53,8 @@ function Login() {
   const loginWithGithub = () => {
     account.createOAuth2Session(
       "github",
-       'https://gleeful-sawine-a544bd.netlify.app/dashboard',
-      `https://gleeful-sawine-a544bd.netlify.app/login`,
+      "https://appcrudproject.netlify.app/dashboard",
+      `https://appcrudproject.netlify.app/login`,
     );
   };
   return (
